@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabor en Casa | Comida Tradicional</title>
+    <!-- Tipografía Elegante de Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- MENÚ DE NAVEGACIÓN (HEADER) -->
+    <header>
+        <div class="nav-container">
+            <div class="logo">Sabor<span>enCasa</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SECCIÓN INICIO (HERO BANNER) -->
+    <section id="inicio" class="hero-banner">
+        <div class="overlay"></div>
+        <div class="banner-content">
+            <span class="badge">Sabor que recuerda al hogar</span>
+            <h1>SABOR EN CASA</h1>
+            <p>Platos caseros frescos todos los días, con excelente presentación y al mejor precio del pueblo. Para quienes trabajan duro y extrañan la buena sazón tradicional.</p>
+            <div class="banner-buttons">
+                <a href="#productos" class="btn btn-primary">Ver Portafolio</a>
+                <a href="#contacto" class="btn btn-secondary">Hacer Pedido</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN NOSOTROS -->
+    <section id="nosotros" class="container section">
+        <div class="section-header">
+            <h2>NOSOTROS</h2>
+            <div class="line"></div>
+            <p>Nuestra historia nace al ver la necesidad de disfrutar comida casera, económica y de gran calidad en el pueblo sin caer en la rutina de la comida rápida.</p>
+        </div>
+        
+        <div class="objectives-grid">
+            <div class="objective-card">
+                <div class="icon-box">🎯</div>
+                <h3>Corto Plazo</h3>
+                <p>Dar a conocer el negocio y consolidar ventas estables todos los días.</p>
+            </div>
+            <div class="objective-card">
+                <div class="icon-box">🚀</div>
+                <h3>Mediano Plazo</h3>
+                <p>Ampliar el menú con platos especiales y perfeccionar el servicio a domicilio.</p>
+            </div>
+            <div class="objective-card">
+                <div class="icon-box">🏢</div>
+                <h3>Largo Plazo</h3>
+                <p>Contar con un local más grande y generar empleo para más familias del pueblo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PRODUCTOS O SERVICIOS -->
+    <section id="productos" class="section bg-dark-cards">
+        <div class="container">
+            <div class="section-header">
+                <h2>PORTAFOLIO DE PRODUCTOS</h2>
+                <div class="line"></div>
+                <p>Descubre nuestras opciones pensadas para trabajadores, estudiantes y familias.</p>
+            </div>
+            
+            <div class="products-gallery">
+                <!-- Almuerzos Tradicionales -->
+                <div class="product-item">
+                    <div class="img-container">
+                        <img src="https://holasim.com/wp-content/uploads/2025/09/peru-traditional-comfort-food-buffet-table-scaled-1.jpg" alt="Almuerzos Tradicionales">
+                        <span class="tag-price">$15.000</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Almuerzos Tradicionales</h3>
+                        <p class="benefit">✨ Menú diferente cada día</p>
+                        <p>Permite que todos coman completo, variado y sumamente económico sin salir de su rutina laboral.</p>
+                    </div>
+                </div>
+
+                <!-- Platos Especiales -->
+                <div class="product-item">
+                    <div class="img-container">
+                        <img src="https://i.pinimg.com/736x/b7/76/db/b776db888b370ca67325d212688173e0.jpg" alt="Platos Especiales">
+                        <span class="tag-price">$18.000 - $22.000</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Platos Especiales</h3>
+                        <p class="benefit">⭐ Recetas típicas de fin de semana</p>
+                        <p>Platos especiales para disfrutar en familia y salir de la rutina sin pasar horas en la cocina.</p>
+                    </div>
+                </div>
+
+                <!-- Domicilios -->
+                <div class="product-item">
+                    <div class="img-container">
+                        <img src="https://i.pinimg.com/1200x/cd/e5/c3/cde5c3ecd0796858baae940f4d1bde37.jpg" alt="Servicio a Domicilio">
+                        <span class="tag-price">Recargo mínimo</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Servicio a Domicilio</h3>
+                        <p class="benefit">📱 Pedidos rápidos por WhatsApp</p>
+                        <p>Ahorra tiempo y recibe tu comida caliente en la comodidad de tu casa o puesto de trabajo.</p>
+                    </div>
+                </div>
+
+                <!-- Bebidas / Extras -->
+                <div class="product-item">
+                    <div class="img-container">
+                        <img src="https://i.pinimg.com/1200x/96/39/d4/9639d4f1ddfd3f4d52213ef68564687c.jpg" alt="Bebidas Frescas">
+                        <span class="tag-price">Variado</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bebidas y Adicionales</h3>
+                        <p class="benefit">🥤 El complemento ideal</p>
+                        <p>Acompaña tus almuerzos con jugos naturales y refrescos preparados bajo los más altos estándares.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO (ESTILO IDÉNTICO A LA GUÍA) -->
+    <section id="contacto" class="container section">
+        <div class="form-wrapper">
+            <div class="form-container">
+                <h2>CONTÁCTENOS</h2>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-submit">Enviar datos</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 <span>Sabor en Casa</span>. Todos los derechos reservados.</p>
+            <p>Estudiante: <strong>Carolina Zapata</strong> | Gestión Empresarial</p>
+        </div>
+    </footer>
+
+</body>
+</html>
